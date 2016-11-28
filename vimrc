@@ -15,6 +15,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-commentary'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'tpope/vim-repeat'
+Bundle 'townk/vim-autoclose'
 
 call vundle#end()
 filetype plugin indent on
