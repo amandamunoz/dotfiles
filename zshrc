@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/amandamunoz/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,7 +53,7 @@ plugins=(git bundler osx rake ruby)
 
 # User configuration
 
-export PATH="/Users/amandamunoz/.rbenv/shims:/Users/amandamunoz/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="~/.rbenv/shims:/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -81,12 +81,13 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias api="/Users/amandamunoz/Development/wellist_api_ruby"
-alias frontend="/Users/amandamunoz/Development/wellist_frontend"
-alias homepages="/Users/amandamunoz/Development/home_pages"
-alias admin_tool="/Users/amandamunoz/Development/wellist_admin"
-alias acceptance_tests="/Users/amandamunoz/Development/acceptance_tests"
-alias home_pages="/Users/amandamunoz/Development/home_pages"
-alias ready_responder="/Users/amandamunoz/Development/ReadyResponder"
-alias upcate="Users/amandamunoz/Development/upcase"
+alias api="~/Development/wellist_api_ruby"
+alias frontend="~/Development/wellist_frontend"
+alias homepages="~/Development/home_pages"
+alias admin_tool="~/Development/wellist_admin"
+alias acceptance_tests="~/Development/acceptance_tests"
+alias home_pages="~/Development/home_pages"
+alias ready_responder="~/Development/ReadyResponder"
+alias upcase="~/Development/upcase"
+alias dotfiles="~/Development/dotfiles"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
