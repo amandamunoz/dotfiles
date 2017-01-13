@@ -53,7 +53,7 @@ plugins=(git bundler osx rake ruby)
 
 # User configuration
 
-export PATH="~/.rbenv/shims:/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Users/amandamunoz/.rbenv/shims:/Users/amandamunoz/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
