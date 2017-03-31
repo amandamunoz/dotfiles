@@ -1,28 +1,30 @@
 " ==============================
 " Vundle Stuff
 " =============================
+syntax on
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-repeat'
-Bundle 'townk/vim-autoclose'
-Bundle 'tpope/vim-fugitive'
-Bundle 'vim-ruby/vim-ruby'
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-repeat'
+Plugin 'townk/vim-autoclose'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-ruby/vim-ruby'
 
 " Ruby/Rails stuff
-Bundle 'tpope/vim-rails'
-Bundle 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-rails'
+Plugin 'thoughtbot/vim-rspec'
 
 " React/JS stuff
-Bundle 'pangloss/vim-javascript'
-Bundle 'mxw/vim-jsx'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on
